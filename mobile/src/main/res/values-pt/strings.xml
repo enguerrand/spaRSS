@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2015-2016 Arnaud Renaud-Goud
  Copyright (c) 2012-2015 Frederic Julian
@@ -21,8 +21,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
 
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
@@ -119,14 +118,14 @@
     <string name="menu_mark_as_unread">Marcar como lido</string>
     <string name="share_favorites_title">spaRSS: artigos favoritos</string>
     <string name="copied_clipboard">Link copiado</string>
-    <string name="get_full_text">Download do texto completo</string>
+    <string name="get_full_text">Descarregar do texto completo</string>
     <string name="original_text">Mostrar texto básico</string>
     <string name="see_enclosure">Listar anexos</string>
     <string name="see_link">Abrir no browser</string>
     <string name="cant_open_link">Nenhum aplicativo encontrado para este link</string>
     <string name="open_enclosure">Abrir anexo</string>
     <string name="file">Ficheiro</string>
-    <string name="download_and_save">Fazer download e salvar</string>
+    <string name="download_and_save">Descarregar e salvar</string>
     <string name="open_link">Abrir link</string>
     <string name="tip_sentence">Dica: deslize para a esquerda para marcar como lido e deslize para a direita para marcar como favorito</string>
 
@@ -153,7 +152,7 @@
     <string name="settings_category_content_presentation">Apresentação de conteúdo</string>
     <string name="settings_light_theme">Tema Claro</string>
     <string name="settings_light_theme_description">Usar o tema claro</string>
-    <string name="settings_left_panel">Painel esquerdo</string>
+    <string name="settings_left_panel">Painel de navegação</string>
     <string name="settings_left_panel_description">Mostrar o painel esquerdo ao iniciar a aplicação</string>
     <string name="settings_keep_time">Período que os artigos serão mantidos</string>
     <string name="settings_display_images">Mostrar imagens</string>
@@ -251,4 +250,5 @@
     <string name="settings_show_new_entries_description">Se desactivado, será preciso um toque no botão Mostrar novas entradas para mostrar novas entradas</string>
     <string name="filter_help">Filtrar Ajuda</string>
     <string name="menu_switch_full_original">Mostrar conteúdo completo</string>
-    </resources>
+    <string name="google_news_custom_topic">Inserir tópico personalizado</string>
+</resources>
