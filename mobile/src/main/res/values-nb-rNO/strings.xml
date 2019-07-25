@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">spaRSS</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">Om spaRSS</string>
     <string name="welcome_title">Velkommen til spaRSS. Vil du legge til en kilde?</string>
     <string name="never">aldri</string>
@@ -18,7 +19,6 @@
     <string name="drawer_close">Lukk navigasjonsskuff</string>
     <string name="back_again_to_quit">Trykk \"Tilbake\" én gang til for å avslutte</string>
     <string name="no_new_entries">Ingen nye oppføringer å vise</string>
-
     <string name="feeds">Kilder</string>
     <string name="menu_add_feed">Legg til kilde</string>
     <string name="no_feeds">Ingen kilder</string>
@@ -70,8 +70,8 @@
     <string name="edit_group_title">Rediger gruppenavn</string>
     <string name="message_exported_to">Eksporter til %s.</string>
     <string name="to_group_title">Flytt kilde</string>
-    <string name="to_group_message">"Du kan enten putte denne kilden inn i denne eller overnevnte gruppe. Hva ønsker du  å gjøre?"</string>
-    <string name="to_group_above">Overnevnt gruppe</string>
+    <string name="to_group_message">"Du kan enten putte denne kilden inn i denne eller ovennevnte gruppe. Hva ønsker du  å gjøre\?"</string>
+    <string name="to_group_above">Ovennevnt gruppen</string>
     <string name="to_group_into">Inn i gruppen</string>
     <string name="add_custom_feed">Legg til en egendefinert kilde, eller søk etter en</string>
     <string name="google_news_title">Google-nyheter -emner</string>
@@ -85,7 +85,6 @@
     <string name="google_news_science">Vitenskap</string>
     <string name="google_news_health">Helse</string>
     <string name="google_news_custom_topic">Skriv inn egendefinert emne</string>
-
     <string name="all">Oppføringer</string>
     <string name="no_entries">Ingen oppføringer</string>
     <string name="favorites">Stjernemerket</string>
@@ -112,12 +111,10 @@
     <string name="download_and_save">Last ned og lagre</string>
     <string name="open_link">Åpne lenke</string>
     <string name="tip_sentence">Tips: Dra til venstre for å markere som lest og dra til høyre for å stjernemerke.</string>
-
     <string name="red">Rød</string>
     <string name="green">Grønn</string>
     <string name="blue">Blå</string>
     <string name="transparency">Gjennomsiktighet</string>
-
     <string name="settings_category_refresh">Automatisk oppdatering</string>
     <string name="settings_refresh_enabled">Skru på automatisk oppdatering</string>
     <string name="settings_refresh_enabled_description">Skru på automatisk oppdatering av kilder</string>
@@ -168,8 +165,7 @@
     <string name="settings_show_new_entries">Vis nye oppføringer automatisk</string>
     <string name="settings_show_new_entries_description">Hvis avskrudd, vil det å trykke \"Vis nye oppføringer\" kreves for å vise nye oppføringer</string>
     <plurals name="number_of_new_entries">
-	<item quantity="one">En ny oppføring</item>
-	<item quantity="other">%d nye oppføringer</item>
-</plurals>
-
-    </resources>
+        <item quantity="one">En ny oppføring</item>
+        <item quantity="other">%d nye oppføringer</item>
+    </plurals>
+</resources>
