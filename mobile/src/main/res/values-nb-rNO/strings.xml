@@ -110,7 +110,7 @@
     <string name="file">Fil</string>
     <string name="download_and_save">Last ned og lagre</string>
     <string name="open_link">Åpne lenke</string>
-    <string name="tip_sentence">Tips: Dra til venstre for å markere som lest og dra til høyre for å stjernemerke.</string>
+    <string name="tip_sentence">Tips: Dra ← for å markere som lest, og → for å stjernemerke</string>
     <string name="red">Rød</string>
     <string name="green">Grønn</string>
     <string name="blue">Blå</string>
