@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2015-2016 Arnaud Renaud-Goud
  Copyright (c) 2012-2015 Frederic Julian
@@ -21,9 +21,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">About spaRSS</string>
@@ -44,7 +42,6 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="back_again_to_quit">Press back once more to exit</string>
     <string name="no_new_entries">No new entries to display</string>
-
     <!-- FEEDS -->
     <string name="feeds">Feeds</string>
     <string name="menu_add_feed">Add feed</string>
@@ -112,7 +109,6 @@
     <string name="google_news_science">Science</string>
     <string name="google_news_health">Health</string>
     <string name="google_news_custom_topic">Enter custom topic</string>
-
     <!-- ENTRIES -->
     <string name="all">Entries</string>
     <string name="no_entries">No entries</string>
@@ -139,14 +135,12 @@
     <string name="file">File</string>
     <string name="download_and_save">Download and save</string>
     <string name="open_link">Open link</string>
-    <string name="tip_sentence">Tip: slide left to mark as read and slide right to mark as favorite</string>
-
+    <string name="tip_sentence">Tip: Slide ← to mark as read, and → to favorite</string>
     <!-- WIDGET -->
     <string name="red">Red</string>
     <string name="green">Green</string>
     <string name="blue">Blue</string>
     <string name="transparency">Transparency</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Automated refresh</string>
     <string name="settings_refresh_enabled">Enable automatic refresh</string>
@@ -201,7 +195,6 @@
         <item quantity="one">One new entry</item>
         <item quantity="other">%d new entries</item>
     </plurals>
-
     <string-array name="settings_intervals">
         <item>1 minute</item>
         <item>5 minutes</item>
@@ -250,5 +243,4 @@
         <item>Only over Wi-Fi</item>
         <item>Always</item>
     </string-array>
-
 </resources>
