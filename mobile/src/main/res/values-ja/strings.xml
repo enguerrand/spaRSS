@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">spaRSS について</string>
@@ -17,7 +17,6 @@
     <string name="drawer_open">ナビゲーション ドロワーを開く</string>
     <string name="drawer_close">ナビゲーション ドロワーを閉じる</string>
     <string name="back_again_to_quit">戻るをもう一度押すと終了します</string>
-
     <string name="feeds">フィード</string>
     <string name="menu_add_feed">フィードを追加</string>
     <string name="no_feeds">フィードはありません</string>
@@ -77,7 +76,6 @@
     <string name="google_news_sports">スポーツ</string>
     <string name="google_news_science">科学</string>
     <string name="google_news_health">健康</string>
-
     <string name="all">エントリー</string>
     <string name="no_entries">エントリーはありません</string>
     <string name="favorites">スター付き</string>
@@ -103,13 +101,11 @@
     <string name="file">ファイル</string>
     <string name="download_and_save">ダウンロードして保存</string>
     <string name="open_link">リンクを開く</string>
-    <string name="tip_sentence">ヒント: 左にスライドすると既読としてマーク、右にスライドするとお気に入りとしてマークします</string>
-
+    <string name="tip_sentence">ヒント: ← にスライドすると既読としてマーク、→ はお気に入り</string>
     <string name="red">赤</string>
     <string name="green">緑</string>
     <string name="blue">青</string>
     <string name="transparency">透明度</string>
-
     <string name="settings_category_refresh">自動更新</string>
     <string name="settings_refresh_enabled">自動更新を有効にする</string>
     <string name="settings_refresh_enabled_description">フィードの自動更新を有効にします</string>
@@ -158,20 +154,17 @@
     <string name="settings_mark_as_read">すべて既読としてマーク ボタンを表示</string>
     <string name="settings_mark_as_read_description">ボタンを表示/非表示します</string>
     <plurals name="number_of_new_entries">
-	    <item quantity="one">新しいエントリー 1 つ</item>
+        <item quantity="one">新しいエントリー 1 つ</item>
     </plurals>
-
     <string name="menu_show_new_entries">新しいエントリーを表示</string>
     <string name="settings_show_new_entries">自動的に新しいエントリーを表示します</string>
     <string name="settings_show_new_entries_description">無効にした場合、新しいエントリーを表示ボタンをタップして、新しいエントリーを表示します</string>
     <string name="no_new_entries">表示する新しいエントリはありません</string>
-
     <string name="feed_httpAuth">HTTP 認証</string>
     <string name="loginhttpAuth">ログイン</string>
     <string name="passwordhttpAuth">パスワード</string>
     <string name="filter_help">フィルター ヘルプ</string>
     <string name="storage_request_explanation">フィードのファイルをインポートまたはエクスポートできるように、アプリケーションをストレージのメモリにアクセスする許可が必要です。</string>
     <string name="google_news_custom_topic">カスタム トピックを入力</string>
-
     <string name="feed_no_summary">&lt; サマリーはありません。 &gt;</string>
-    </resources>
+</resources>
