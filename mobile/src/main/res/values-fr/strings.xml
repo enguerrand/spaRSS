@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2015-2016 Arnaud Renaud-Goud
  Copyright (c) 2012-2015 Frederic Julian
@@ -21,9 +21,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">À propos de spaRSS</string>
@@ -43,7 +41,6 @@
     <string name="drawer_close">Fermer le menu de navigation</string>
     <string name="back_again_to_quit">Appuyez de nouveau sur retour pour quitter</string>
     <string name="no_new_entries">Aucun nouvel article à afficher</string>
-
     <!-- FEEDS -->
     <string name="feeds">Flux</string>
     <string name="menu_add_feed">Ajouter un flux</string>
@@ -100,7 +97,6 @@
     <string name="google_news_sports">Sport</string>
     <string name="google_news_science">Science</string>
     <string name="google_news_health">Santé</string>
-
     <!-- ENTRIES -->
     <string name="all">Tous les articles</string>
     <string name="no_entries">Aucun article</string>
@@ -125,14 +121,12 @@
     <string name="file">Fichier</string>
     <string name="download_and_save">Télécharger et sauvegarder</string>
     <string name="open_link">Ouvrir le lien</string>
-    <string name="tip_sentence">Astuce : glisser vers la gauche pour marquer comme lu et vers la droite pour ajouter aux favoris</string>
-
+    <string name="tip_sentence">Astuce : Glissez ← pour marquer comme lu, et → pour ajouter aux favoris</string>
     <!-- WIDGET -->
     <string name="red">Rouge</string>
     <string name="green">Vert</string>
     <string name="blue">Bleu</string>
     <string name="transparency">Transparence</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Mise à jour automatique</string>
     <string name="settings_refresh_enabled">Activer la mise à jour automatique</string>
@@ -178,10 +172,9 @@
     <string name="settings_mark_as_read">Afficher le bouton "Marquer tout comme lu"</string>
     <string name="settings_mark_as_read_description">Affiche/Masque le bouton</string>
     <plurals name="number_of_new_entries">
-	<item quantity="one">1 nouvel article</item>
-	<item quantity="other">%d nouveaux articles</item>
-</plurals>
-
+        <item quantity="one">1 nouvel article</item>
+        <item quantity="other">%d nouveaux articles</item>
+    </plurals>
     <string-array name="settings_intervals">
         <item>1 minute</item>
         <item>5 minutes</item>
@@ -225,20 +218,18 @@
     <string name="settings_left_panel">Panneau de navigation</string>
     <string name="settings_left_panel_description">Affiche le panneau de navigation au démarrage de l’application</string>
     <string name="tab_advanced_title">Avancé</string>
-
     <string name="menu_open_in_browser">Ouvrir dans le navigateur</string>
     <string name="menu_switch_full_original">Afficher le contenu complet</string>
     <string name="settings_font_serif">Utiliser une police à empattement (serif)</string>
     <string name="settings_font_serif_description">Utilise une police à empattement au lieu de sans empattement dans les articles</string>
-<string name="menu_show_new_entries">Afficher les nouveaux articles</string>
+    <string name="menu_show_new_entries">Afficher les nouveaux articles</string>
     <string name="settings_show_new_entries">Afficher automatiquement les nouveaux articles</string>
     <string name="feed_httpAuth">Authentification HTTP</string>
     <string name="loginhttpAuth">Identifiant</string>
     <string name="passwordhttpAuth">Mot de passe</string>
-<string name="settings_show_new_entries_description">Si désactivé, un appui sur le bouton Afficher nouveaux articles sera requis pour les afficher</string>
+    <string name="settings_show_new_entries_description">Si désactivé, un appui sur le bouton Afficher nouveaux articles sera requis pour les afficher</string>
     <string name="filter_help">Aide à propos des filtres</string>
     <string name="storage_request_explanation">Pour pouvoir importer ou exporter les flux depuis ou vers un fichier, vous devez autoriser l\'application à accéder au stockage interne.</string>
     <string name="feed_no_summary">&lt; Aucun résumé disponible. &gt;</string>
     <string name="google_news_custom_topic">Entrer un thème personnalisé</string>
-
-    </resources>
+</resources>
