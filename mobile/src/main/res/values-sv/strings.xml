@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2010-2012 Stefan Handschuh
 
@@ -19,9 +19,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">Om spaRSS</string>
@@ -40,7 +38,6 @@
     <string name="drawer_open">Öppna navigationspanelen</string>
     <string name="drawer_close">Stänga navigationspanelen</string>
     <string name="back_again_to_quit">Tryck Tillbaka igen för att sluta</string>
-
     <!-- FEEDS -->
     <string name="feeds">Feeds</string>
     <string name="menu_add_feed">Lägg till feed</string>
@@ -101,7 +98,6 @@
     <string name="google_news_sports">Sport</string>
     <string name="google_news_science">Vetenskap</string>
     <string name="google_news_health">Hälsa</string>
-
     <!-- ENTRIES -->
     <string name="all">Inlägg</string>
     <string name="no_entries">Inga poster</string>
@@ -128,14 +124,12 @@
     <string name="file">Fil</string>
     <string name="download_and_save">Ladda ned och spara</string>
     <string name="open_link">Öppna länk</string>
-    <string name="tip_sentence">Tips: svep åt vänster för att markera som läst, svep åt höger för att markera som favorit</string>
-
+    <string name="tip_sentence">Tips: Svep ← för att markera som läst och → för att markera som favorit</string>
     <!-- WIDGET -->
     <string name="red">Röd</string>
     <string name="green">Grön</string>
     <string name="blue">Blå</string>
     <string name="transparency">Transparens</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Automatisk uppdatering</string>
     <string name="settings_refresh_enabled">Uppdatera automatiskt</string>
@@ -184,7 +178,6 @@
     <string name="settings_proxy_type">Type</string>
     <string name="settings_mark_as_read">Visa knappen "Mark som läst"</string>
     <string name="settings_mark_as_read_description">Visa knappen "Mark som läst"</string>
-
     <plurals name="number_of_new_entries">
         <item quantity="one">Ett nytt inlägg</item>
         <item quantity="other">%d nya inlägg</item>
@@ -237,10 +230,8 @@
         <item>Endast via Wi-Fi</item>
         <item>Alltid</item>
     </string-array>
-
-<string name="menu_show_new_entries">Visa nya poster</string>
+    <string name="menu_show_new_entries">Visa nya poster</string>
     <string name="no_new_entries">Ina nya poster att visa</string>
-
     <string name="storage_request_explanation">För att kunna importera eller exportera feed:er från eller till en fil måste du tillåta appen att få åtkomst till lagringsminnet.</string>
     <string name="feed_no_summary">&lt; Ingen sammanfattning tillgänglig. &gt;</string>
     <string name="feed_httpAuth">HTTP-autentisering</string>
@@ -248,7 +239,6 @@
     <string name="passwordhttpAuth">Lösenord</string>
     <string name="filter_help">Filterhjälp</string>
     <string name="google_news_custom_topic">Ange anpassat ämne</string>
-
     <string name="settings_show_new_entries">Visa automatisk nya poster</string>
     <string name="settings_show_new_entries_description">Om inaktiverat kommer ett klick på knappen Visa nya poster att krävas för att visa nya poster</string>
-    </resources>
+</resources>
