@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2015-2016 Arnaud Renaud-Goud
  Copyright (c) 2012-2015 Frederic Julian
@@ -21,9 +21,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">spaRSSi buruz</string>
@@ -42,7 +40,6 @@
     <string name="drawer_open">Ireki nabigazio tiradera</string>
     <string name="drawer_close">Itxi nabigazio tiradera</string>
     <string name="back_again_to_quit">Sakatu atzera beste behin irteteko</string>
-
     <!-- FEEDS -->
     <string name="feeds">Jarioak</string>
     <string name="menu_add_feed">Jarioa gehitu</string>
@@ -59,10 +56,10 @@
     <string name="error_feed_process">Jarioa ezin da prozesatu.</string>
     <string name="error_feed_url_exists">Helbidea existitzen da dagoeneko.</string>
     <string name="error_feed_import">Hautatutako fitxategia ezin izan da inportatu.</string>
-	<string name="error_feed_export">Esportazioak huts egin du. Egiaztatu idatz daitekeen SD-txartel bat
+    <string name="error_feed_export">Esportazioak huts egin du. Egiaztatu idatz daitekeen SD-txartel bat
         muntatuta duzula.
     </string>
-	<string name="error_external_storage_not_available">Kanpoko biltegia (adib. SD-txartela) ez dago
+    <string name="error_external_storage_not_available">Kanpoko biltegia (adib. SD-txartela) ez dago
         eskuragarri.
     </string>
     <string name="feed_url">URL-a</string>
@@ -83,7 +80,7 @@
     <string name="feed_search">Jario bilaketa</string>
     <string name="select_file">Fitxategia hautatu (SD-erroa)</string>
     <string name="question_delete_feed">Benetan jario hau ezabatu nahi al duzu?</string>
-	<string name="question_delete_group">Benetan talde hau eta bere jario guztiak ezabatu nahi
+    <string name="question_delete_group">Benetan talde hau eta bere jario guztiak ezabatu nahi
         al dituzu?
     </string>
     <string name="question_delete_filter">Benetan iragazki hau ezabatu nahi al duzu?</string>
@@ -91,7 +88,7 @@
     <string name="edit_group_title">Editatu talde izena</string>
     <string name="message_exported_to">%sra esportatuta.</string>
     <string name="to_group_title">Jario mugitze ekintza</string>
-	<string name="to_group_message">Jario hau talde honetan edo honen gainean jar dezakezu. Zer egin
+    <string name="to_group_message">Jario hau talde honetan edo honen gainean jar dezakezu. Zer egin
         nahi duzu?
     </string>
     <string name="to_group_above">Taldearen gainean</string>
@@ -107,7 +104,6 @@
     <string name="google_news_sports">Kirolak</string>
     <string name="google_news_science">Zientzia</string>
     <string name="google_news_health">Osasuna</string>
-
     <!-- ENTRIES -->
     <string name="all">Sarrerak</string>
     <string name="no_entries">Sarrerarik ez</string>
@@ -132,14 +128,12 @@
     <string name="file">Fitxategia</string>
     <string name="download_and_save">Deskargatu eta gorde</string>
     <string name="open_link">Esteka ireki</string>
-    <string name="tip_sentence">Aholkua: mugitu ezkerrera irakurrita bezala markatzeko eta eskuinera gogokoen bezala markatzeko</string>
-
+    <string name="tip_sentence">"Aholkua:  ← irakurrita bezala markatzeko, eta → gogoko bezala markatzeko"</string>
     <!-- WIDGET -->
     <string name="red">Gorria</string>
     <string name="green">Berdea</string>
     <string name="blue">Urdina</string>
     <string name="transparency">Gardentasuna</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Freskatze automatikoa</string>
     <string name="settings_refresh_enabled">Freskatze automatikoa gaitu</string>
@@ -188,12 +182,10 @@
     <string name="settings_proxy_host">Ostalaria</string>
     <string name="settings_proxy_port">Ataka</string>
     <string name="settings_proxy_type">Mota</string>
-
     <plurals name="number_of_new_entries">
         <item quantity="one">Sarrera berri bat</item>
         <item quantity="other">%d sarrera berri</item>
     </plurals>
-
     <string-array name="settings_intervals">
         <item>Minutu 1</item>
         <item>5 minuteu</item>
@@ -231,10 +223,8 @@
         <item>Wi-Fipean soilik</item>
         <item>Beti</item>
     </string-array>
-
-<string name="menu_show_new_entries">Sarrera berriak erakutsi</string>
+    <string name="menu_show_new_entries">Sarrera berriak erakutsi</string>
     <string name="no_new_entries">Ez dago sarrera berririk erakusteko</string>
-
     <string name="feed_cookie">Autentikazio cookiea</string>
     <string name="cookiename">Izena</string>
     <string name="cookievalue">Balioa</string>
@@ -255,6 +245,5 @@
     <string name="passwordhttpAuth">Pasahitza</string>
     <string name="filter_help">Iragazkiaren laguntza</string>
     <string name="google_news_custom_topic">Gai pertsonalizatua sartu</string>
-
     <string name="feed_no_summary">&lt; Ez dago laburpenik eskuragarri. &gt;</string>
-    </resources>
+</resources>
