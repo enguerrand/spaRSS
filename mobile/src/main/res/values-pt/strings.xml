@@ -22,7 +22,6 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
 --><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">Sobre o spaRSS</string>
@@ -41,7 +40,6 @@
     <string name="drawer_open">Abrir a aba de navegação</string>
     <string name="drawer_close">Fechar a aba de navegação</string>
     <string name="back_again_to_quit">Pressione novamente para sair</string>
-
     <!-- FEEDS -->
     <string name="feeds">Feeds</string>
     <string name="menu_add_feed">Novo feed</string>
@@ -102,7 +100,6 @@
     <string name="google_news_sports">Esportes</string>
     <string name="google_news_science">Ciência</string>
     <string name="google_news_health">Saúde</string>
-
     <!-- ENTRIES -->
     <string name="all">Artigos</string>
     <string name="no_entries">Sem artigos</string>
@@ -127,14 +124,12 @@
     <string name="file">Ficheiro</string>
     <string name="download_and_save">Descarregar e salvar</string>
     <string name="open_link">Abrir link</string>
-    <string name="tip_sentence">Dica: deslize para a esquerda para marcar como lido e deslize para a direita para marcar como favorito</string>
-
+    <string name="tip_sentence">Dica: Deslize ← para marcar como lido, e → para o favorizar</string>
     <!-- WIDGET -->
     <string name="red">Vermelho</string>
     <string name="green">Verde</string>
     <string name="blue">Azul</string>
     <string name="transparency">Transparente</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Atualização automática</string>
     <string name="settings_refresh_enabled">Habilitar atualização automática</string>
@@ -187,7 +182,6 @@
         <item quantity="one">Um artigo novo</item>
         <item quantity="other">%d novos artigos</item>
     </plurals>
-
     <string-array name="settings_intervals">
         <item>1 minuto</item>
         <item>5 minutos</item>
@@ -236,14 +230,12 @@
         <item>Somente em Wi-Fi</item>
         <item>Sempre</item>
     </string-array>
-
-<string name="menu_show_new_entries">Mostrar novas entradas</string>
+    <string name="menu_show_new_entries">Mostrar novas entradas</string>
     <string name="storage_request_explanation">Para poder importar ou exportar feeds de ou para um ficheiro, tem de permitir que a aplicação aceda à memoria.</string>
     <string name="feed_no_summary">&lt; Sem resumo disponível. &gt;</string>
     <string name="loginhttpAuth">Login</string>
     <string name="passwordhttpAuth">Palavra-passe</string>
     <string name="no_new_entries">Sem novas entradas a mostrar</string>
-
     <string name="feed_httpAuth">Atenticação HTTP</string>
     <string name="menu_open_in_browser">Abrir no navegador</string>
     <string name="settings_show_new_entries">Mostrar novas entradas automaticamente</string>
