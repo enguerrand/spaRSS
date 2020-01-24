@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2010-2012 Stefan Handschuh
       modified 2014-2014 Matthias Dill
@@ -20,9 +20,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">Über spaRSS</string>
@@ -43,7 +41,6 @@
     <string name="drawer_close">Navigationsleiste schließen</string>
     <string name="back_again_to_quit">Zum Beenden Zurück-Taste noch einmal drücken</string>
     <string name="no_new_entries">Keine neuen Einträge vorhanden</string>
-
     <!-- FEEDS -->
     <string name="feeds">Feeds</string>
     <string name="menu_add_feed">Feed hinzufügen</string>
@@ -82,8 +79,8 @@
     <string name="filter_is_regex">ist ein regulärer Ausdruck</string>
     <string name="filter_apply_to_title">Auf den Titel anwenden</string>
     <string name="filter_apply_to_content">Auf den Inhalt anwenden</string>
-    <string name="accept">ACCEPT</string>
-    <string name="reject">REJECT</string>
+    <string name="accept">ANNEHMEN</string>
+    <string name="reject">ABLEHNEN</string>
     <string name="feed_search">Feed-Suche</string>
     <string name="select_file">Datei auswählen(SD-root)</string>
     <string name="question_delete_feed">Willst du diesen Feed wirklich löschen?</string>
@@ -102,12 +99,11 @@
     <string name="google_news_top_stories">Schlagzeilen</string>
     <string name="google_news_world">International</string>
     <string name="google_news_business">Wirtschaft</string>
-    <string name="google_news_technology">Wissenschaft und Technik</string>
+    <string name="google_news_technology">Technologie</string>
     <string name="google_news_entertainment">Unterhaltung</string>
     <string name="google_news_sports">Sport</string>
-    <string name="google_news_science">Panorama</string>
+    <string name="google_news_science">Wissenschaft</string>
     <string name="google_news_health">Gesundheit</string>
-
     <!-- ENTRIES -->
     <string name="all">Einträge</string>
     <string name="no_entries">Keine Einträge</string>
@@ -135,13 +131,11 @@
     <string name="download_and_save">Herunterladen und speichern</string>
     <string name="open_link">Link öffnen</string>
     <string name="tip_sentence">Tipp: Nach links wischen um Artikel als gelesen zu markieren und nach rechts wischen um Artikel zu favorisieren</string>
-
     <!-- WIDGET -->
     <string name="red">Rot</string>
     <string name="green">Grün</string>
     <string name="blue">Blau</string>
     <string name="transparency">Transparenz</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Automatisches Aktualisieren</string>
     <string name="settings_refresh_enabled">Automatisches Aktualisieren</string>
@@ -194,7 +188,6 @@
         <item quantity="one">Ein neuer Eintrag</item>
         <item quantity="other">%d neue Einträge</item>
     </plurals>
-
     <string-array name="settings_intervals">
         <item>1 Minute</item>
         <item>5 Minuten</item>
@@ -243,11 +236,10 @@
         <item>Nur über WLAN</item>
         <item>Immer</item>
     </string-array>
-
-<string name="settings_show_new_entries">Automatisch neue Einträge anzeigen</string>
+    <string name="settings_show_new_entries">Automatisch neue Einträge anzeigen</string>
     <string name="filter_help">Filter Hilfe</string>
     <string name="settings_show_new_entries_description">Wenn deaktiviert, ist das Antippen des Buttons Neue Einträge erforderlich, um neue Einträge zu sehen</string>
     <string name="google_news_custom_topic">Eigenes Thema</string>
-<string name="storage_request_explanation">Um Feeds aus einer Datei importieren oder in eine Datei exportieren zu können, benötigt die App Zugriffsrechte auf die SD-Karte.</string>
+    <string name="storage_request_explanation">Um Feeds aus einer Datei importieren oder in eine Datei exportieren zu können, benötigt die App Zugriffsrechte auf die SD-Karte.</string>
     <string name="feed_no_summary">&lt;Keine Zusammenfassung verfügbar&gt;</string>
-    </resources>
+</resources>
