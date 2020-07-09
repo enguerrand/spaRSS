@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">אודות spaRSS</string>
@@ -31,7 +31,7 @@
     <string name="error_feed_import">אי אפשר ליבא את הקובץ הנבחר.</string>
     <string name="error_feed_export">היצוא נכשל. ודא כי מצוי ברשותך כרטיס-SD כתיב מעוגן.</string>
     <string name="error_external_storage_not_available">האחסון החיצוני (למשל כרטיס-SD) אינו זמין.</string>
-    <string name="feed_url">כתובת URL</string>
+    <string name="feed_url">כתובת</string>
     <string name="optional">(רשות)</string>
     <string name="website_or_feed">(אתר רשת או ערוץ)</string>
     <string name="feed_cookie">עוגיית אימות</string>
@@ -71,7 +71,6 @@
     <string name="google_news_sports">ספורט</string>
     <string name="google_news_science">מדע</string>
     <string name="google_news_health">בריאות</string>
-
     <string name="context_menu_hide_read">הסתר רשומות שנקראו</string>
     <string name="context_menu_show_read">הצג רשומות שנקראו</string>
     <string name="menu_full_screen">מסך מלא</string>
@@ -86,13 +85,11 @@
     <string name="file">קובץ</string>
     <string name="download_and_save">הורד ושמור</string>
     <string name="open_link">פתח קישור</string>
-    <string name="tip_sentence">טיפ: החלק שמאלה כדי לסמן בתור נקרא והחלק ימינה כדי לסמן בתור מועדף</string>
-
+    <string name="tip_sentence">טיפ: יש להחליק ← כדי לסמן בתור נקרא ו־→ כדי להוסיף למועדפים</string>
     <string name="red">אדום</string>
     <string name="green">ירוק</string>
     <string name="blue">כחול</string>
     <string name="transparency">שקיפות</string>
-
     <string name="settings_category_refresh">רענון אוטומטי</string>
     <string name="settings_refresh_enabled">אפשר רענון אוטומטי</string>
     <string name="settings_refresh_enabled_description">אפשר רענון אוטומטי של ערוצים</string>
@@ -111,7 +108,7 @@
     <string name="settings_keep_time">זמן אשר בו הרשומות תישמרנה</string>
     <string name="settings_display_images">הצג תמונות</string>
     <string name="settings_display_images_description">הצג תמונות בתוך רשומות</string>
-    <string name="settings_preload_image_mode">טען תמונות באופן טרומי</string>
+    <string name="settings_preload_image_mode">טעינת תמונות מראש</string>
     <string name="settings_font_size">גודל טקסט</string>
     <string name="settings_font_serif">השתמש בגופן Serif</string>
     <string name="settings_font_serif_description">השתמש בגופן Serif במקום Sans-Serif בתוך מאמרים</string>
@@ -136,14 +133,14 @@
     <string name="settings_proxy_port">פורט</string>
     <string name="settings_proxy_type">טיפוס</string>
     <string name="settings_mark_as_read">הצג כפתור סמן את כולן בתור נקראו</string>
-    <string name="settings_mark_as_read_description">הצג / הסתר את הכפתור (נדרשת התחלה מחדש)</string>
+    <string name="settings_mark_as_read_description">הצגת / הסתרת הכפתור</string>
     <plurals name="number_of_new_entries">
-	    <item quantity="one">רשומה חדשה אחת</item>
-	    <item quantity="other">%d רשומות חדשות</item>
+        <item quantity="one">רשומה חדשה אחת</item>
+        <item quantity="two">%d רשומות חדשות</item>
+        <item quantity="many">%d רשומות חדשות</item>
+        <item quantity="other">%d רשומות חדשות</item>
     </plurals>
-
     <string name="back_again_to_quit">לחץ חזרה פעם נוספת כדי לצאת</string>
-
     <string name="select_file">בחר קובץ (SD-שורש)</string>
     <string name="google_news_indicator">בחר נושא או מספר נושאים להוספה. אפשרי כי חלק מהם לא יסופקו על ידי Google בשפתך.</string>
     <string name="all">רשומות</string>
@@ -157,12 +154,20 @@
     <string name="see_enclosure">ראה צירוף</string>
     <string name="open_enclosure">פתח צירוף</string>
     <string name="copied_clipboard">קישור הועתק</string>
-<string name="menu_show_new_entries">הצג רשומות חדשות</string>
-    <string name="no_new_entries">אין רשומות חדשות להצגה.</string>
-
+    <string name="menu_show_new_entries">הצג רשומות חדשות</string>
+    <string name="no_new_entries">אין רשומות חדשות להצגה</string>
     <string name="feed_httpAuth">אימות HTTP</string>
     <string name="loginhttpAuth">התחבר</string>
     <string name="passwordhttpAuth">סיסמה</string>
     <string name="settings_category_content_presentation">הצגת תוכן</string>
     <string name="settings_show_new_entries">הצג אוטומטית רשומות חדשות</string>
-    </resources>
+    <string name="settings_show_new_entries_description">אם האפשרות מושבתת, נגיעה בכפתור הצגת רשומות חדשות תידרש כדי להציג רשומות חדשות</string>
+    <string name="settings_left_panel_description">להציג את מגירת הניווט עם הפעלת היישומון</string>
+    <string name="settings_left_panel">מגירת ניווט</string>
+    <string name="google_news_custom_topic">הזנת נושא מותאם אישית</string>
+    <string name="filter_help">עזרה למסנן</string>
+    <string name="feed_no_summary">&lt; אין תקציר זמין. &gt;</string>
+    <string name="storage_request_explanation">כדי שתהיה אפשרות לייבא או לייצא הזנות מקובץ או אליו, עליך לאפשר ליישומון לגשת לזיכרון האחסון.</string>
+    <string name="drawer_close">סגירת מגירת ניווט</string>
+    <string name="drawer_open">פתיחת מגירת ניווט</string>
+</resources>
