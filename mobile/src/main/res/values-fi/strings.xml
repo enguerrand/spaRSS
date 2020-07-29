@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2010-2012 Stefan Handschuh
 
@@ -19,9 +19,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">Tietoja spaRSSista</string>
@@ -40,7 +38,6 @@
     <string name="drawer_open">Avaa navigointipaneeli</string>
     <string name="drawer_close">Sulje navigointipaneeli</string>
     <string name="back_again_to_quit">Paina takaisin-näppäintä vielä kerran lopettaaksesi</string>
-
     <!-- FEEDS -->
     <string name="feeds">Syötteet</string>
     <string name="menu_add_feed">Lisää syöte</string>
@@ -102,7 +99,6 @@
     <string name="google_news_sports">Urheilu</string>
     <string name="google_news_science">Tiede</string>
     <string name="google_news_health">Terveys</string>
-
     <!-- ENTRIES -->
     <string name="all">Artikkelit</string>
     <string name="no_entries">Ei artikkeleita</string>
@@ -129,14 +125,12 @@
     <string name="file">Tiedosto</string>
     <string name="download_and_save">Lataa ja tallenna</string>
     <string name="open_link">Avaa linkki</string>
-    <string name="tip_sentence">Vihje: Pyyhkäise vasemmalle merkitäksesi artikkeli luetuksi. Pyyhkäise oikealle merkitäksesi artikkeli tähdellä.</string>
-
+    <string name="tip_sentence">Vihje: Pyyhkäise ← merkitäksesi artikkeli luetuksi ja → merkitäksesi artikkeli tähdellä</string>
     <!-- WIDGET -->
     <string name="red">Punainen</string>
     <string name="green">Vihreä</string>
     <string name="blue">Sininen</string>
     <string name="transparency">Läpinäkyvyys</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Automaattinen päivitys</string>
     <string name="settings_refresh_enabled">Päivitä automaattisesti</string>
@@ -200,7 +194,7 @@
         <item>2 kuukautta</item>
         <item>3 kuukautta</item>
         <item>Oletus</item>
-     </string-array>
+    </string-array>
     <string-array name="settings_intervals">
         <item>1 minuutti</item>
         <item>5 minuuttia</item>
@@ -238,10 +232,8 @@
         <item>Vain Wi-Fi -yhteyden kautta</item>
         <item>Aina</item>
     </string-array>
-
-<string name="menu_show_new_entries">Näytä uudet kohteet</string>
+    <string name="menu_show_new_entries">Näytä uudet kohteet</string>
     <string name="no_new_entries">Ei uusia kohteita</string>
-
     <string name="storage_request_explanation">Jotta voit tuoda tai viedä syötteitä tiedostosta tai tiedostoon, sinun pitää antaa sovellukselle lupa hallita tallennustilaa.</string>
     <string name="feed_no_summary">&lt; Ei yhteenvetoa saatavilla. &gt;</string>
     <string name="feed_httpAuth">HTTP-todennus</string>
@@ -249,7 +241,6 @@
     <string name="passwordhttpAuth">Salasana</string>
     <string name="filter_help">Suodattimien ohjeet</string>
     <string name="google_news_custom_topic">Syötä oma otsikko</string>
-
     <string name="settings_show_new_entries">Näytä uudet kohteet automaattisesti</string>
     <string name="settings_show_new_entries_description">Jos tämä poistetaan käytöstä, uusien tulosten näyttämiseksi vaaditaan Näytä uudet tulokset -napin kosketus</string>
-    </resources>
+</resources>
