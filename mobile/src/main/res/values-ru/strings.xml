@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2010-2012 Stefan Handschuh
 
@@ -19,9 +19,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">Про spaRSS</string>
@@ -42,7 +40,6 @@
     <string name="drawer_close">Закрыть меню навигации</string>
     <string name="back_again_to_quit">Нажмите "Назад" еще раз, чтобы выйти</string>
     <string name="no_new_entries">Нет новых записей</string>
-
     <!-- FEEDS -->
     <string name="feeds">Ленты</string>
     <string name="menu_add_feed">Добавить ленту</string>
@@ -99,7 +96,6 @@
     <string name="google_news_sports">Спорт</string>
     <string name="google_news_science">Наука</string>
     <string name="google_news_health">Здоровье</string>
-
     <!-- ENTRIES -->
     <string name="all">Новости</string>
     <string name="no_entries">Нет новостей</string>
@@ -124,14 +120,12 @@
     <string name="file">Файл</string>
     <string name="download_and_save">Загрузить и сохранить</string>
     <string name="open_link">Открыть ссылку</string>
-    <string name="tip_sentence">Совет: проведите пальцем влево, чтобы отметить как прочитанное, или вправо, чтобы добавить в избранное</string>
-
+    <string name="tip_sentence">Совет. Проведите ←, чтобы отметить как прочитанное, и →, чтобы добавить в избранное</string>
     <!-- WIDGET -->
     <string name="red">Красный</string>
     <string name="green">Зеленый</string>
     <string name="blue">Синий</string>
     <string name="transparency">Прозрачный</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Автоматическое обновление</string>
     <string name="settings_refresh_enabled">Включить автоматическое обновление</string>
@@ -175,14 +169,12 @@
     <string name="settings_proxy_host">Адрес сервера</string>
     <string name="settings_proxy_port">Порт</string>
     <string name="settings_proxy_type">Тип соединения</string>
-
     <plurals name="number_of_new_entries">
-	<item quantity="one">Одна новая запись</item>
-	<item quantity="few">%d новых записи</item>
-	<item quantity="many">%d новых записей</item>
-	<item quantity="other"/>
-</plurals>
-
+        <item quantity="one">Одна новая запись</item>
+        <item quantity="few">%d новых записи</item>
+        <item quantity="many">%d новых записей</item>
+        <item quantity="other"/>
+    </plurals>
     <string-array name="settings_intervals">
         <item>1 минута</item>
         <item>5 минут</item>
@@ -231,7 +223,6 @@
         <item>Только по Wi-Fi</item>
         <item>Всегда</item>
     </string-array>
-
     <string name="feed_cookie">Cookie для аутентификации</string>
     <string name="cookiename">Имя</string>
     <string name="cookievalue">Значение</string>
@@ -252,6 +243,5 @@
     <string name="tab_advanced_title">Дополнительно</string>
     <string name="storage_request_explanation">Чтобы получить возможность импорта лент из файла или экспорта их в файл, надо разрешить приложению доступ к хранилищу.</string>
     <string name="google_news_custom_topic">Ввести рубрику вручную</string>
-
     <string name="feed_no_summary">&lt; Нет описания &gt;</string>
-    </resources>
+</resources>
