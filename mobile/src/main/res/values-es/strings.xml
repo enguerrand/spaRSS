@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2010-2012 Stefan Handschuh
 
@@ -19,9 +19,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">Acerca de spaRSS</string>
@@ -40,7 +38,6 @@
     <string name="drawer_open">Abrir el panel de navegación</string>
     <string name="drawer_close">Cerrar el panel de navegación</string>
     <string name="back_again_to_quit">Presione atrás une vez más para salir</string>
-
     <!-- FEEDS -->
     <string name="feeds">Fuentes</string>
     <string name="menu_add_feed">Agregar fuente</string>
@@ -77,7 +74,7 @@
     <string name="feed_search">Buscar fuentes</string>
     <string name="select_file">Seleccionar archivo</string>
     <string name="question_delete_feed">¿Seguro que quiere eliminar esta fuente?</string>
-    <string name="question_delete_group">¿Seguro que quiere eliminar este grupo de fuentes?</string>
+    <string name="question_delete_group">"¿Seguro que quiere eliminar este grupo de fuentes\? "</string>
     <string name="question_delete_filter">¿Seguro que quiere eliminar este filtro?</string>
     <string name="add_group_title">Añadir nombre de grupo</string>
     <string name="edit_group_title">Editar nombre de grupo</string>
@@ -97,7 +94,6 @@
     <string name="google_news_sports">Deportes</string>
     <string name="google_news_science">Ciencia</string>
     <string name="google_news_health">Salud</string>
-
     <!-- ENTRIES -->
     <string name="all">Entradas</string>
     <string name="no_entries">No hay entradas</string>
@@ -122,14 +118,12 @@
     <string name="file">Archivo</string>
     <string name="download_and_save">Descargar y guardar</string>
     <string name="open_link">Abrir el enlace</string>
-    <string name="tip_sentence">Tip: deslizar a la izquierda marca como leido y a la derecha para destacar</string>
-
+    <string name="tip_sentence">Sugerencia: Deslice ← para marcar como leído, y → para poner como favorito</string>
     <!-- WIDGET -->
     <string name="red">Rojo</string>
     <string name="green">Verde</string>
     <string name="blue">Azul</string>
     <string name="transparency">Transparencia</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Actualizaciones automáticas</string>
     <string name="settings_refresh_enabled">Habilitar actualizaciones automáticas</string>
@@ -168,18 +162,14 @@
     <string name="settings_category_network">Red</string>
     <string name="settings_proxy_enabled">Habilitado</string>
     <string name="settings_proxy_wifi_only">Solo en Wi-Fi</string>
-    <string name="settings_proxy_wifi_only_description">Utiliza el proxy solo mientras se esté
-        conectado a una red Wi-Fi.
-    </string>
+    <string name="settings_proxy_wifi_only_description">Utiliza el Proxy sólo para la Wi-Fi</string>
     <string name="settings_proxy_host">Máquina</string>
     <string name="settings_proxy_port">Puerto</string>
     <string name="settings_proxy_type">Tipo</string>
-
     <plurals name="number_of_new_entries">
-	<item quantity="one">Una entrada nueva</item>
-	<item quantity="other">%d entradas nuevas</item>
-</plurals>
-
+        <item quantity="one">Una entrada nueva</item>
+        <item quantity="other">%d entradas nuevas</item>
+    </plurals>
     <string-array name="settings_intervals">
         <item>1 minuto</item>
         <item>5 minutos</item>
@@ -217,8 +207,7 @@
         <item>Only over Wi-Fi</item>
         <item>Always</item>
     </string-array>
-
-<string name="menu_show_new_entries">Mostrar entradas nuevas</string>
+    <string name="menu_show_new_entries">Mostrar entradas nuevas</string>
     <string name="feed_cookie">Cookie de autenticación</string>
     <string name="tab_advanced_title">Avanzado</string>
     <string name="menu_open_in_browser">Abrir en el navegador</string>
@@ -234,13 +223,11 @@
     <string name="settings_font_serif">Usar fuente Serif</string>
     <string name="settings_font_serif_description">Usar fuente Serif en lugar de Sans-Serif en los artículos</string>
     <string name="no_new_entries">Nada nuevo para mostrar</string>
-
     <string name="feed_httpAuth">Autenticación HTTP</string>
     <string name="passwordhttpAuth">Contraseña</string>
     <string name="loginhttpAuth">Nombre de acceso</string>
     <string name="filter_help">Ayuda de filtros</string>
     <string name="storage_request_explanation">Para poder importar o exportar las fuentes desde o hacia un archivo, debes permitir que la aplicación acceda a la memoria de almacenamiento.</string>
     <string name="google_news_custom_topic">Añade un tema de tu elección</string>
-
     <string name="feed_no_summary">&lt; No hay resumen disponible. &gt;</string>
-    </resources>
+</resources>
