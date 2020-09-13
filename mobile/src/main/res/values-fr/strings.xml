@@ -77,7 +77,7 @@
     <string name="feed_search">Rechercher</string>
     <string name="select_file">Sélectionner le fichier (racine de la carte SD)</string>
     <string name="question_delete_feed">Voulez-vous vraiment supprimer ce flux ?</string>
-    <string name="question_delete_group">Voulez-vous vraiment supprimer ce groupe et tous ses flux ?</string>
+    <string name="question_delete_group">"Voulez-vous vraiment supprimer ce groupe et tous ses flux \? "</string>
     <string name="question_delete_filter">Voulez-vous vraiment supprimer ce filtre ?</string>
     <string name="add_group_title">Entrer le nom du groupe</string>
     <string name="edit_group_title">Modifier le nom du groupe</string>
