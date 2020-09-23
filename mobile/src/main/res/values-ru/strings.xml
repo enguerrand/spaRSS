@@ -36,7 +36,7 @@
     <string name="network_error">Нет подключения к сети</string>
     <string name="loading">Загрузка…</string>
     <string name="no_result">Нет результатов</string>
-    <string name="drawer_open">Открыть меню навигации</string>
+    <string name="drawer_open">Открыть панель навигации</string>
     <string name="drawer_close">Закрыть меню навигации</string>
     <string name="back_again_to_quit">Нажмите "Назад" еще раз, чтобы выйти</string>
     <string name="no_new_entries">Нет новых записей</string>
