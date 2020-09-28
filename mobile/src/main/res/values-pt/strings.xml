@@ -119,7 +119,7 @@
     <string name="original_text">Mostrar texto básico</string>
     <string name="see_enclosure">Listar anexos</string>
     <string name="see_link">Abrir no browser</string>
-    <string name="cant_open_link">Nenhum aplicativo encontrado para este link</string>
+    <string name="cant_open_link">Nenhuma app encontrada para este link</string>
     <string name="open_enclosure">Abrir anexo</string>
     <string name="file">Ficheiro</string>
     <string name="download_and_save">Descarregar e salvar</string>
