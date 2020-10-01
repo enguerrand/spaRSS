@@ -79,9 +79,9 @@
     <string name="reject">REJEITAR</string>
     <string name="feed_search">Busca de feeds</string>
     <string name="select_file">Selecionar o ficheiro (SD-root)</string>
-    <string name="question_delete_feed">Tem certeza de que deseja excluir este feed?</string>
+    <string name="question_delete_feed">Tem certeza de que deseja apagar este feed\?</string>
     <string name="question_delete_group">"Tem a certeza de que deseja apagar este grupo e todos os seus feeds? "</string>
-    <string name="question_delete_filter">Tem certeza de que deseja excluir este filtro?</string>
+    <string name="question_delete_filter">Tem certeza de que deseja apagar este filtro\?</string>
     <string name="add_group_title">Escolha um nome para o grupo</string>
     <string name="edit_group_title">Altere o nome do grupo</string>
     <string name="message_exported_to">Exportado em %s.</string>
@@ -110,7 +110,7 @@
     <string name="menu_star">Marcar favorito</string>
     <string name="menu_unstar">Desmarcar favorito</string>
     <string name="menu_share">Compartilhar</string>
-    <string name="menu_full_screen">Tela cheia</string>
+    <string name="menu_full_screen">Ecrã cheio</string>
     <string name="menu_copy_clipboard">Copiar link</string>
     <string name="menu_mark_as_unread">Marcar como lido</string>
     <string name="share_favorites_title">spaRSS: artigos favoritos</string>
@@ -158,8 +158,8 @@
     <string name="settings_font_serif_description">Usar fonte Serif ao invés de Sans-Serif em artigos</string>
     <string name="settings_display_oldest_first">Ordem dos artigos</string>
     <string name="settings_display_oldest_first_description">Mostrar artigos antigos primeiro</string>
-    <string name="settings_display_entries_fullscreen">Artigos em tela-cheia</string>
-    <string name="settings_display_entries_fullscreen_description">Automaticamente mostrar artigos em modo tela-cheia</string>
+    <string name="settings_display_entries_fullscreen">Artigos em ecrã-cheio</string>
+    <string name="settings_display_entries_fullscreen_description">Automaticamente mostrar artigos em modo ecrã-cheio</string>
     <string name="settings_refresh_on_open">Atualizar feeds ao iniciar app</string>
     <string name="settings_refresh_on_open_description">Atualiza todos os feeds ao iniciar a aplicação</string>
     <string name="settings_refresh_wifi_only">Atualizar somente em Wi-Fi</string>
