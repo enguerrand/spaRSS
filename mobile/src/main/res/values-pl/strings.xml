@@ -16,4 +16,11 @@
     <string name="no_result">Brak wyników</string>
     <string name="no_new_entries">Brak nowych wiadomości do wyświetlenia</string>
     <string name="back_again_to_quit">Naciśnij przycisk wstecz jeszcze raz, żeby wyjść z aplikacji.</string>
+    <string name="error_feed_url_exists">Adres już istnieje.</string>
+    <string name="menu_export">Eksportuj do OPML</string>
+    <string name="menu_import">Importuj z OPML</string>
+    <string name="menu_add_group">Dodaj grupę</string>
+    <string name="context_menu_edit">Edytuj</string>
+    <string name="context_menu_delete">Usuń</string>
+    <string name="no_filters">Brak reguł</string>
 </resources>
