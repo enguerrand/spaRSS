@@ -72,8 +72,8 @@
     <string name="filter_is_regex">est une expression rationnelle</string>
     <string name="filter_apply_to_title">Appliquer au titre</string>
     <string name="filter_apply_to_content">Appliquer au contenu</string>
-    <string name="accept">ACCEPT</string>
-    <string name="reject">REJECT</string>
+    <string name="accept">ACCEPTER</string>
+    <string name="reject">REFUSER</string>
     <string name="feed_search">Rechercher</string>
     <string name="select_file">Sélectionner le fichier (racine de la carte SD)</string>
     <string name="question_delete_feed">Voulez-vous vraiment supprimer ce flux ?</string>
@@ -155,7 +155,7 @@
     <string name="settings_display_entries_fullscreen_description">Affiche automatiquement les articles en plein écran</string>
     <string name="settings_refresh_on_open">Mettre à jour les flux au lancement</string>
     <string name="settings_refresh_on_open_description">Met à jour tous les flux au lancement de l’application</string>
-    <string name="settings_refresh_wifi_only">Mettre à jour en Wi-Fi uniquement</string>
+    <string name="settings_refresh_wifi_only">Actualiser en Wi-Fi uniquement</string>
     <string name="settings_refresh_wifi_only_description">La mise à jour automatique ne se fera que si une connexion Wi-Fi est activée</string>
     <string name="settings_visible_feeds">Flux visibles</string>
     <string name="settings_widget_background">Arrière-plan</string>
