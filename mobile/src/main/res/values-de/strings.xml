@@ -182,7 +182,7 @@
     <string name="settings_proxy_host">Host</string>
     <string name="settings_proxy_port">Port</string>
     <string name="settings_proxy_type">Typ</string>
-    <string name="settings_mark_as_read">Zeige den Button \"Alle als gelesen markieren\"</string>
+    <string name="settings_mark_as_read">Den Button für \"Alles als gelesen markieren\" anzeigen</string>
     <string name="settings_mark_as_read_description">Zeige / verstecke den Button</string>
     <plurals name="number_of_new_entries">
         <item quantity="one">Ein neuer Eintrag</item>
