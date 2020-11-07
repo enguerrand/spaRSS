@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright (c) 2013-2014 Danilo Treffiletti
 
@@ -19,20 +19,18 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
--->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-
+--><resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
     <!-- GENERAL -->
     <string name="app_name">spaRSS</string>
     <string name="about_spaRSS">A proposito di spaRSS</string>
-    <string name="welcome_title">Benvenuto su spaRSS. Vorresti aggiungere un feed?</string>
+    <string name="welcome_title">Benvenuto/a su spaRSS. Vorresti aggiungere un flusso\?</string>
     <string name="never">mai</string>
     <string name="update">Aggiornamento</string>
     <string name="colon">:\u00A0</string>
     <string name="menu_settings">Impostazioni</string>
     <string name="menu_refresh">Aggiorna</string>
     <string name="menu_all_read">Segna tutti come letti</string>
-    <string name="spaRSS_feeds">Feed di spaRSS</string>
+    <string name="spaRSS_feeds">Flusso di spaRSS</string>
     <string name="error">Errore</string>
     <string name="network_error">Nessuna connessione disponibile</string>
     <string name="loading">Caricamento in corso…</string>
@@ -40,21 +38,20 @@
     <string name="drawer_open">Apri pannello di navigazione</string>
     <string name="drawer_close">Chiudi pannello di navigazione</string>
     <string name="back_again_to_quit">Premere indietro un\'altra volta per uscire</string>
-
     <!-- FEEDS -->
-    <string name="feeds">Feed</string>
-    <string name="menu_add_feed">Aggiungi feed</string>
-    <string name="no_feeds">Nessun feed</string>
+    <string name="feeds">Flussi</string>
+    <string name="menu_add_feed">Aggiungi un flusso</string>
+    <string name="no_feeds">Nessun flusso</string>
     <string name="no_filters">Nessun filtro</string>
     <string name="context_menu_delete">Elimina</string>
-    <string name="edit_feed_title">Modifica feed</string>
-    <string name="new_feed_title">Nuovo feed</string>
+    <string name="edit_feed_title">Modifica il flusso</string>
+    <string name="new_feed_title">Nuovo flusso</string>
     <string name="context_menu_edit">Modifica</string>
     <string name="menu_add_group">Aggiungi gruppo</string>
     <string name="menu_import">Importa OPML</string>
     <string name="menu_export">Esporta OPML</string>
-    <string name="error_feed_error">L\'indirizzo del feed non può essere raggiunto.</string>
-    <string name="error_feed_process">Il feed non può essere elaborato.</string>
+    <string name="error_feed_error">L\'indirizzo del flusso non può essere raggiunto.</string>
+    <string name="error_feed_process">Il flusso non può essere elaborato.</string>
     <string name="error_feed_url_exists">L\'indirizzo è già presente.</string>
     <string name="error_feed_import">Il file selezionato non può essere importato.</string>
     <string name="error_feed_export">L\'esportazione è fallita. Controllare di avere una scheda SD scrivibile.</string>
@@ -63,11 +60,11 @@
     </string>
     <string name="feed_url">URL</string>
     <string name="optional">(opzionale)</string>
-    <string name="website_or_feed">(sito web o feed)</string>
+    <string name="website_or_feed">(sito web o flusso)</string>
     <string name="feed_cookie">Cookie di autenticazione</string>
     <string name="cookiename">Nome</string>
-    <string name="cookievalue">valore</string>
-    <string name="tab_feed_title">Feed</string>
+    <string name="cookievalue">Valore</string>
+    <string name="tab_feed_title">Flusso</string>
     <string name="tab_filters_title">Filtri</string>
     <string name="tab_advanced_title">Avanzate</string>
     <string name="feed_title">Titolo</string>
@@ -80,21 +77,21 @@
     <string name="filter_apply_to_content">Applica al contenuto</string>
     <string name="accept">ACCETTA</string>
     <string name="reject">BLOCCA</string>
-    <string name="feed_search">Ricerca feed</string>
+    <string name="feed_search">Ricerca</string>
     <string name="select_file">Seleziona file (radice SD)</string>
-    <string name="question_delete_feed">Vuoi cancellare questo feed?</string>
-    <string name="question_delete_group">"Vuoi cancellare questo gruppo e tutti i suoi feed? "</string>
+    <string name="question_delete_feed">Vuoi cancellare questo flusso\?</string>
+    <string name="question_delete_group">"Vuoi cancellare questo gruppo e tutti i suoi flussi\? "</string>
     <string name="question_delete_filter">Vuoi cancellare questo filtro?</string>
     <string name="add_group_title">Inserisci nome del gruppo</string>
     <string name="edit_group_title">Modifica nome del gruppo</string>
     <string name="message_exported_to">Esportato su %s.</string>
-    <string name="to_group_title">Azione spostamento feed</string>
-    <string name="to_group_message">Puoi spostare il feed sia dentro sia prima del gruppo. Cosa vuoi fare\?</string>
+    <string name="to_group_title">Azione spostamento flusso</string>
+    <string name="to_group_message">Puoi spostare il flusso sia dentro sia prima del gruppo. Cosa vuoi fare\?</string>
     <string name="to_group_above">Sopra il gruppo</string>
     <string name="to_group_into">Dentro il gruppo</string>
-    <string name="add_custom_feed">Aggiungi un feed personale o cercane uno</string>
+    <string name="add_custom_feed">Aggiungi un flusso personale o cercane uno</string>
     <string name="google_news_title">Argomenti di Google News</string>
-    <string name="google_news_indicator">Seleziona uno o più feed da aggiungere. Alcuni di questi potrebbero non essere forniti da Google nella tua lingua.</string>
+    <string name="google_news_indicator">Seleziona uno o più argomenti da aggiungere. Alcuni di questi potrebbero non essere forniti da Google nella tua lingua.</string>
     <string name="google_news_top_stories">Temi caldi</string>
     <string name="google_news_world">Mondo</string>
     <string name="google_news_business">Economia</string>
@@ -103,7 +100,6 @@
     <string name="google_news_sports">Sport</string>
     <string name="google_news_science">Scienza</string>
     <string name="google_news_health">Salute</string>
-
     <!-- ENTRIES -->
     <string name="all">Articoli</string>
     <string name="no_entries">Nessun articolo</string>
@@ -115,34 +111,31 @@
     <string name="menu_unstar">Rimuovi dai preferiti</string>
     <string name="menu_share">Condividi</string>
     <string name="menu_full_screen">A tutto schermo</string>
-    <string name="menu_copy_clipboard">Copia il link</string>
+    <string name="menu_copy_clipboard">Copia il collegamento</string>
     <string name="menu_mark_as_unread">Segna come non letto</string>
     <string name="menu_open_in_browser">Apri nel browser</string>
     <string name="menu_switch_full_original">Mostra testo originale</string>
     <string name="share_favorites_title">spaRSS: articoli preferiti</string>
-    <string name="copied_clipboard">Link copiato</string>
+    <string name="copied_clipboard">Collegamento copiato</string>
     <string name="get_full_text">Recupera il testo completo</string>
     <string name="original_text">Mostra testo originale</string>
     <string name="see_enclosure">Vedi allegati</string>
     <string name="see_link">Vedi nel browser</string>
-    <string name="cant_open_link">Nessuna applicazione trovata per questo link</string>
+    <string name="cant_open_link">Nessuna applicazione trovata per questo collegamento</string>
     <string name="open_enclosure">Apri allegato</string>
     <string name="file">File</string>
     <string name="download_and_save">Scarica e salva</string>
-    <string name="open_link">Apri link</string>
-    <string name="tip_sentence">Suggerimento: fai scorrere a sinistra per segnare come letto e a destra per segnare come preferito</string>
-
+    <string name="open_link">Apri il collegamento</string>
+    <string name="tip_sentence">Suggerimento: fai scorrere ← per contrassegnare come letto e → per preferito</string>
     <!-- WIDGET -->
     <string name="red">Rosso</string>
     <string name="green">Verde</string>
     <string name="blue">Blu</string>
     <string name="transparency">Trasparenza</string>
-
     <!-- SETTINGS -->
     <string name="settings_category_refresh">Aggiornamento automatico</string>
     <string name="settings_refresh_enabled">Attiva aggiornamento automatico</string>
-    <string name="settings_refresh_enabled_description">Attiva l\'aggiornamento automatico dei feed
-    </string>
+    <string name="settings_refresh_enabled_description">Attiva l\'aggiornamento automatico dei flussi</string>
     <string name="settings_refresh_interval">Intervallo</string>
     <string name="settings_category_notifications">Notifiche</string>
     <string name="settings_notifications_enabled">Attiva notifiche</string>
@@ -167,23 +160,21 @@
     <string name="settings_display_images_description">Mostra le immagini degli articoli</string>
     <string name="settings_preload_image_mode">Scarica le immagini in anticipo</string>
     <string name="settings_font_size">Dimensione testo</string>
-    <string name="settings_font_serif">Usa carattere Serif</string>
-    <string name="settings_font_serif_description">Usa il carattere Serif invece di Sans-Serif negli articoli</string>
+    <string name="settings_font_serif">Usa carattere serif</string>
+    <string name="settings_font_serif_description">Usa il carattere serif invece di sans-serif negli articoli</string>
     <string name="settings_display_oldest_first">Ordinamento articoli</string>
     <string name="settings_display_oldest_first_description">Mostra gli articoli più vecchi prima</string>
     <string name="settings_display_entries_fullscreen">Articoli a tutto schermo in automatico</string>
     <string name="settings_display_entries_fullscreen_description">Visualizza automaticamente a tutto schermo gli articoli</string>
-    <string name="settings_refresh_on_open">Aggiorna feed all\'apertura</string>
-    <string name="settings_refresh_on_open_description">Aggiorna tutti i feed all\'apertura
-        dell\'applicazione
-    </string>
+    <string name="settings_refresh_on_open">Aggiorna i flussi all\'apertura</string>
+    <string name="settings_refresh_on_open_description">Aggiorna tutti i flussi all\'apertura dell\'applicazione</string>
     <string name="settings_refresh_wifi_only">Aggiorna solo in Wi-Fi</string>
     <string name="settings_refresh_wifi_only_description">L\'aggiornamento automatico verrà eseguito solo se una rete Wi-Fi è disponibile</string>
-    <string name="settings_visible_feeds">Feed visibili</string>
+    <string name="settings_visible_feeds">Flussi visibili</string>
     <string name="settings_widget_background">Sfondo</string>
     <string name="settings_widget_background_description">Colore e trasparenza dello sfondo del widget
     </string>
-    <string name="all_feeds">Tutti i feed (inclusi futuri)</string>
+    <string name="all_feeds">Tutti i flussi (inclusi futuri)</string>
     <string name="settings_screen_proxy">Proxy</string>
     <string name="settings_category_network">Rete</string>
     <string name="settings_proxy_enabled">Attivato</string>
@@ -194,12 +185,10 @@
     <string name="settings_proxy_type">Tipo</string>
     <string name="settings_mark_as_read">Mostra bottone "Segna tutti come letti"</string>
     <string name="settings_mark_as_read_description">Mostra/nascondi il bottone</string>
-
     <plurals name="number_of_new_entries">
         <item quantity="one">Un nuovo articolo</item>
         <item quantity="other">%d nuovi articoli</item>
     </plurals>
-
     <string-array name="settings_intervals">
         <item>1 minuto</item>
         <item>5 minuti</item>
@@ -248,18 +237,15 @@
         <item>Solo con Wi-Fi</item>
         <item>Sempre</item>
     </string-array>
-
-<string name="menu_show_new_entries">Mostra nuovi articoli</string>
+    <string name="menu_show_new_entries">Mostra nuovi articoli</string>
     <string name="settings_show_new_entries">Mostra automaticamente nuovi articoli</string>
     <string name="settings_show_new_entries_description">Se disabilitato, bisogna premere sul bottone Mostra nuovi articoli per mostrare i nuovi articoli</string>
     <string name="no_new_entries">Nessun nuovo articolo da mostrare</string>
-
-    <string name="storage_request_explanation">Per poter importare o esportare i feed da o in un file, devi permettere l\'app di accedere alla memoria.</string>
+    <string name="storage_request_explanation">Per poter importare o esportare i flussi da o in un file, devi permettere l\'app di accedere alla memoria.</string>
     <string name="feed_no_summary">&lt; Nessun riassunto disponibile. &gt;</string>
     <string name="feed_httpAuth">Autenticazione HTTP</string>
-    <string name="loginhttpAuth">Login</string>
+    <string name="loginhttpAuth">Nome utente</string>
     <string name="passwordhttpAuth">Password</string>
     <string name="filter_help">Aiuto filtri</string>
     <string name="google_news_custom_topic">Inserisci argomento personalizzato</string>
-
-    </resources>
+</resources>
