@@ -387,7 +387,7 @@ public class EntriesListFragment extends SwipeRefreshListFragment {
                         //not mobilized, yet
 //                        entries[i++] = (Long.valueOf(cursor.getPosition()));
                     }
-                } while (cursor.moveToNext());
+                } while (!cursor.isLast() && cursor.moveToNext());
             }
             if(i > 0) {
                 entries = Arrays.copyOf(entries, i);
