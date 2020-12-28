@@ -38,7 +38,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
+    flavorDimensions "version"
     productFlavors {
         floss {
             applicationId 'net.etuldan.sparss.floss'
@@ -65,7 +65,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.melnykov:floatingactionbutton:+'
     compile 'org.jsoup:jsoup:+' 
-    compile 'com.squareup.picasso:picasso:+'
+    compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.amulyakhare:com.amulyakhare.textdrawable:+'
 //    testCompile 'junit:junit:4.12'
 //    testCompile 'org.mockito:mockito-core:1.10.19'
